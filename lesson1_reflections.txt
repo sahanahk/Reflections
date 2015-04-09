@@ -1,0 +1,22 @@
+In windows,fc is used to compare two files.
+Its syntax is fc file1 file2
+It shows the lines that are present in the file1 that are missing in file2 and vice versa.
+So we can compare the two files only in the portions that they stand a difference.
+In this case it was easier to find a typo in few lines of code as compared to
+identifying the same in 1000s of lines of code.
+
+It would take care of the fact that i would not have to worry about keeping track of version control manually.
+At any point of time i would have a sequence of files in the history rather than manually looking for them.
+It would be of great help when multiple people are working on it.
+
+the advantage of manually choosing when to commit in the case of Git is you can
+choose to commit whenever you have made a logical change to the code.In one case if One has fixed
+typo and fixed a bug in different functions, then ideally there should be two commits.As each commit will have
+one single purpose and its easy to diffrentiate.On the other hand, since its manual
+  if one chooses to do the above case in one commit.The purpose is lost.On the other hand automatic version
+  control might lead to versions which do not add any value.
+
+
+It helps to concurrently check changes in multiple files at one go.
+In case of a webpage html,javascript and css are closely interlinekd.So,
+  if one is able to view the changes in multiple files at one go, it would be very useful.

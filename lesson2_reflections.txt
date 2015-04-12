@@ -9,6 +9,14 @@ Untracked files:
 
         lesson1_reflections.txt
 
-nothing added to commit but untracked files present (use "git add" to track)
+nothing added to it but untracked files present (use "git add" to track)
 
 staging area is a when u add files to repository it is placed in staging area where u can commit.
+
+using the git diff command i can reconfirm the changes between my working directory and staging area.
+staging area consists of the most recent commit untill i havent added any files for the next commit.
+using git diff --staged i can find the difference between files in staging area and repository.
+
+branching helps in keeping track of additional options that i would be doing as a part of experiment,
+so that i can keep the original master intact and create a branch and commit changes
+in the branch for those additional options.

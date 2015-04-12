@@ -1,0 +1,14 @@
+git init creates a repository with  a .git extension file.
+git staus gives the staus of the repository.
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        lesson1_reflections.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+staging area is a when u add files to repository it is placed in staging area where u can commit.

@@ -20,3 +20,10 @@ using git diff --staged i can find the difference between files in staging area 
 branching helps in keeping track of additional options that i would be doing as a part of experiment,
 so that i can keep the original master intact and create a branch and commit changes
 in the branch for those additional options.
+
+Diagrams help visualize the branches,the master and the concept of reachability.Through diagrams
+one can understand whether the commit can be reachable or not.
+
+Pros of automatically merging would be that u dont have to worry about nitty grittys
+but since git would not be able to identify which parts of the conflict to retain
+and which to discard, it might end up keeping the parts of code which we might not need.

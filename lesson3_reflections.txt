@@ -1,0 +1,2 @@
+When more than 1 person is working on a project there tend to be a 
+scenario where there would be changes in git hub rather than ones local machine.
